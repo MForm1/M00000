@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>MForm</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="main">
+        <form method="post" name="Mform">
+          <!-- Header -->
+          <div class="head">
+            <h1>FuturBeets</h1>
+            <p>fill all the texts fields take gifts and offers</p>
+          </div>
+          <!-- /Header -->
+
+          <!-- Main Form Started -->
+          <label for="fullName">Your Name:</label>
+          <input
+            type="text"
+            placeholder="Full Name"
+            name="name"
+            id="fullName"
+            required
+          />
+
+          <label for="email">Your Email:</label>
+          <input
+            type="email"
+            placeholder="abcd@xyz.com"
+            name="email"
+            class="emailInp"
+            id="email"
+            required
+          />
+
+          <label for="number">Your Number:</label>
+          <input
+            type="number"
+            placeholder="0123456789"
+            name="number"
+            id="subject"
+            class="phoneInp"
+            pattern="[0-9]{10}" title="Please enter a 10-digit number."
+
+            required
+          />
+
+          <label for="number">Your Place:</label>
+          <input
+            type="subject"
+            placeholder="Kollam"
+            name="place"
+            id="subject"
+            required
+          />
+
+          <!-- Submit Button -->
+          <button id="submitButton" type="submit">Take Gift Now</button>
+        </form>
+        <!-- /Main Form Ended -->
+      </div>
+<div class="giftParent">
+      <div class="gift">
+        <div class="card">
+          <div class="scratch"></div>
+          <h3 class="price">🎁 Your Surprice is Any Mobile 10% Discount 🎁</h3>
+        </div>
+        <p class="cardcontent">🎁 Tap for a surprise!</p>
+      </div>
+      </div>
+    </div>
+
+    <div class="footer">
+      <p>All &copy; <a style="text-decoration: none;" href="./login.html">Copyright</a> Reserved Developed By - <a href="#">MirrorSoft</a></p>
+    </div>
+    <script src="./index.js"></script>
+  </body>
+</html>

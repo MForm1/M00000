@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admin Pannel</title>
+    <link rel="stylesheet" href="admin.css">
+</head>
+<body>
+    <div class="navbar">
+        <h1>Admin Pannel</h1>
+        <ul class="nav">
+            <li><a href="./admin.html">Home</a></li>
+            <li><a href="./gift.html">Gifts</a></li>
+          
+            <li><a href="./privacy.html">Privacy Policy</a></li>
+        </ul>
+
+        <img class="menu" src="./images/menu.png" alt="menue icon">
+    </div>
+    <div class="gmain">
+        <div class="submitBox">
+            <label for="">Type Gift :</label>
+           <form action="" name="Gform">
+            <div class="ginput">
+                <input type="text" class="giftInp" name="gift" required>
+            <button id="submitButton" type="submit">Submit</button>
+            </div>
+           </form>
+        </div>
+        <div class="giftParent">
+            <h2 class="loading"></h2>
+           
+        </div>
+    </div>
+    <script src="./gift.js"></script>
+</body>
+</html>
